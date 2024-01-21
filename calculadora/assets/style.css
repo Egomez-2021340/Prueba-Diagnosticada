@@ -1,0 +1,62 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(35, 5, 56, 1) 53%,
+    rgba(7, 115, 209, 1) 100%
+  ); /*/https://cssgradient.io*/
+}
+
+.calculadora {
+  text-align: center;
+  padding: 50px;
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.1);
+  background: rgba(132, 102, 224, 0.194);
+  align-items: flex-start;
+}
+
+input {
+  padding: 10px;
+  margin-bottom: 10px;
+  font-size: 1.5em;
+  text-align: center;
+}
+
+button {
+  padding: 15px;
+  font-size: 1.2em;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: aquamarine;
+}
+
+.botones {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 8px;
+}
+.foot {
+  position: absolute;
+  bottom: 5px;
+  display: flex;
+  color: white;
+  padding: 50px;
+}
+
+.heather {
+  position: absolute;
+  top: 5px;
+  right: 10px;
+  display: flex;
+  color: white;
+  padding: 50px;
+}
