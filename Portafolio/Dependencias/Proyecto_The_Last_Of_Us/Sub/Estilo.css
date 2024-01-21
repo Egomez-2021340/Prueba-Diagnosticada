@@ -1,0 +1,88 @@
+.cuerpo {
+  color: aliceblue;
+  font-family: "Arial ", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+body {
+  color: aliceblue;
+  background-size: cover;
+  font-family: "Arial ", sans-serif;
+  display: flex;
+  background-attachment: fixed;
+  min-height: 100;
+  margin: 0;
+}
+
+.overlay1 {
+  background-color: rgb(31, 57, 36);
+  padding: 20px;
+  width: 100%;
+  text-align: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 20px;
+  max-width: 1000px;
+  width: 80%;
+  text-align: center;
+  align-items: center;
+  margin: 0 auto;
+  position: absolute;
+  top: 100%;
+  left: 400;
+  top: calc(100px + 10px);
+}
+
+h1,
+h2,
+h4,
+h5,
+h3 {
+  color: aliceblue;
+  font-family: "Calibri Light", Arial, sans-serif;
+  font-weight: normal;
+}
+
+.container {
+  display: inline-block;
+}
+
+.vertical-line {
+  border-left: 1px solid black;
+  height: 20px;
+  margin: 0 10px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+a.text:link,
+a.text:visited {
+  color: rgb(190, 192, 185);
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a.text:hover,
+a.text:active {
+  color: rgb(183, 0, 0);
+}
+
+img {
+  border: 6px solid #353a2b;
+}
+
+.cuerpo1 {
+  color: #d7d7d7;
+}
